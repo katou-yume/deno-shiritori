@@ -1,0 +1,51 @@
+body{
+    background:#ec6a38;
+    -webkit-animation:colour 10s linear infinite;
+      -moz-animation:colour 10s linear infinite;
+    
+  }
+  @-webkit-keyframes colour{
+      0%{
+          background:#387dec
+      }
+  
+      40%{
+          background:#ec385f
+      }
+  
+      80%{
+          background:#ec389e
+      }
+  
+      100%{
+          background:#387dec
+      }
+  
+  }
+  
+  @-moz-keyframes colour{
+      0%{
+          background:#387dec
+      }
+  
+      40%{
+          background:#ec385f
+      }
+  
+      80%{
+          background:#ec389e
+      }
+  
+      100%{
+          background:#387dec
+      }
+  
+  }
+  h1{
+    font-family:arial;
+    margin-top:100px;
+    color:#fff;
+    font-size:50px;
+    text-align:center;
+    text-transform:uppercase;
+  }
